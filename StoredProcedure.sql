@@ -10,4 +10,6 @@ Begin
 End
 go
 exec QueryOrders 500;
-gos
+go
+
+select sum(amount) from [order]
